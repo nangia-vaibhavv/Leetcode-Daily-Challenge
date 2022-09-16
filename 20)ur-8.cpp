@@ -64,7 +64,7 @@ public:
                 // i.e making the first (8 - 6) = 2 bits left
                 // e.g (10xxxxxx >> 6) becomes 10 (in binary format)
                 // if the first 2 bits are not 10 (in binary format), then it is not valid
-                if ((x >> 6) != 0b10) return false;
+                if ((x >> 6) != 0b10) return false
                 // otherwise, this segement is ok so we decrease `remaining` by 1
                 else remaining--;
             }
