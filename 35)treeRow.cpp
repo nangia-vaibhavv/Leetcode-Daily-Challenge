@@ -13,7 +13,7 @@ public:
 
                 TreeNode *newNode1=new TreeNode(val);
                 newNode1->right=root->right;
-                root->right=newNode1;
+                root->right=newNode1
         
         }
         else
